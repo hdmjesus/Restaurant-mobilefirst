@@ -1,0 +1,112 @@
+/* -----------------------------GENERALES */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 16px;
+}
+
+.contenedor {
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+}
+
+
+/* -----------------------------GENERALES */
+
+
+/* -----------------------------VARIABLES */
+
+ :root {
+    /* Colors  */
+    --white-color: #fff;
+    --yellow-color: #f9f943;
+    --red-color: #ef1616;
+    --gray-color: #888886;
+    --orange-color: #efa22e;
+    --marron-color: #534120;
+}
+
+
+/* -----------------------------VARIABLES */
+
+
+/* ------------------------------HEADER -NAV*/
+
+header {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.header-top {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 4;
+}
+
+.bar-nav {
+    display: none
+}
+
+.bar-nav-mobile a {
+    color: var(--white-color);
+    font-size: 1.5em;
+}
+
+
+/* ------------------------------HEADER -NAV */
+
+
+/* ------------------------------HEADER -VIDEO */
+
+.video-wrapper {
+    position: absolute;
+    right: 700px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* ------------------------------HEADER -VIDEO */
+
+
+/* ------------------------------MAIN- PRIMAVERA */
+
+
+/* ------------------------------MAIN- PRIMAVERA */
+
+
+/* ------------------------------MAIN- FIGURE */
+
+.wrapper-imagen img {
+    height: 200px;
+    width: 100%;
+}
+
+
+/* ------------------------------MAIN- FIGURE */
+
+
+/* ------------------------------FOOTER-SOCIAL */
+
+footer {
+    background-color: var(--marron-color);
+    height: 180px;
+}
+
+
+/* ------------------------------FOOTER-SOCIAL */

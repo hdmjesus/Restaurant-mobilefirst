@@ -552,16 +552,19 @@ footer {
 
 .delivery {
     font-size: 16px;
+    height: 100%;
 }
 
 .image-delivery {
     width: 100%;
     text-align: center;
     padding: 3em;
+    margin-bottom: 4em;
 }
 
 .wrapper-description-delivery {
     width: 100%;
+    height: 40vh;
 }
 
 .delivery-description {

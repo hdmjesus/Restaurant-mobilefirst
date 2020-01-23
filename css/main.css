@@ -30,15 +30,19 @@ body {
     --gray-color: #888886;
     --orange-color: #efa22e;
     --marron-color: #534120;
+    --black-color: #000;
 }
 
 
 /* -----------------------------VARIABLES */
 
 
+/* ------------------------------INDEX.HTML------------------------------------------INDEX.HTML------*/
+
+
 /* ------------------------------HEADER -NAV*/
 
-header {
+.header-index {
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -86,15 +90,79 @@ header {
 
 /* ------------------------------MAIN- PRIMAVERA */
 
+.wrapper-wrapper-primavera {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.primavera-wrapper {
+    padding: 1em;
+    text-align: center;
+    font-size: 16px;
+}
+
+.primavera-wrapper h1 {
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+
+.wrapper-wrapper-button {
+    margin: 0 auto;
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+
+.botones {
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    border-radius: 4em;
+    text-align: center;
+}
+
+.botones a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.wrapper-button-drink {
+    background-color: var(--gray-color);
+}
+
+.wrapper-button-food {
+    background-color: var(--orange-color);
+}
+
 
 /* ------------------------------MAIN- PRIMAVERA */
 
 
 /* ------------------------------MAIN- FIGURE */
 
+.wrapper-wrapper-imagen {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    height: auto;
+}
+
 .wrapper-imagen img {
-    height: 200px;
+    height: 50%;
     width: 100%;
+    margin-bottom: 2em
+}
+
+.wrapper-imagen {
+    display: flex;
+    margin: 0;
+    height: auto;
+}
+
+.end-footer img {
+    margin-bottom: 0;
 }
 
 
@@ -106,7 +174,422 @@ header {
 footer {
     background-color: var(--marron-color);
     height: 180px;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+}
+
+.icons-wrapper {
+    padding: 0.7em;
+}
+
+.icons-wrapper ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-wrapper ul li {
+    list-style: none;
+}
+
+.icons-wrapper ul li a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 0.5em;
+}
+
+.wrapper-direction {
+    padding: 0 1.5em;
+}
+
+.wrapper-direction article strong {
+    font-size: 1.2em;
+}
+
+.wrapper-direction article p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.derechos {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0.3em;
+}
+
+.bar-nav-footer {
+    margin-bottom: 20px;
+}
+
+.bar-nav-footer li a i {
+    font-size: 1.5em;
+}
+
+.bar-nav-footer ul li {
+    list-style: none;
+}
+
+.bar-nav-footer ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bar-nav-footer a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 0.7em;
+    text-decoration: underline;
+    margin: 1em;
+    text-align: center;
 }
 
 
 /* ------------------------------FOOTER-SOCIAL */
+
+
+/* ------------------------------INDEX.HTML------------------------------------------INDEX.HTML------*/
+
+
+/* ------------------------------MENU.HTML--------------------------------------------MENU.HTML------*/
+
+
+/* ---------------------------HEADER----------*/
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--red-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-banner-food {
+    height: 200px;
+    background-image: url(../img/header-menu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ---------------------------HEADER----------*/
+
+
+/* ---------------------------MAIN-ESPECIALIDADES----------*/
+
+.wrapper-wrapper-images h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.wrapper-wrapper-images {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 2em;
+}
+
+.wrapper-images {
+    width: inherit;
+}
+
+.image-especial-img1 {
+    background-image: url(../img/pabellon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.image-especial-img2 {
+    background-image: url(../img/atun.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.image-especial-img3 {
+    background-image: url(../img/encebollado.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.position-img {
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+.description-especial {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    width: 40%;
+    bottom: 1em;
+    left: 1em;
+    border-radius: 3px;
+    height: 42px;
+}
+
+.description-img2 {
+    bottom: 1em;
+    left: 50%;
+    height: 40px;
+}
+
+.image-especial-img1 p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.image-especial-img2 p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.image-especial-img3 p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+/* ---------------------------MAIN-ESPECIALIDADES----------*/
+
+
+/* ---------------------------MAIN-MENU----------*/
+
+.wrapper-wrapper-menu {
+    font-size: 16px;
+    width: 100%;
+}
+
+.wrapper-wrapper-menu h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.menu-chicken {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.image-wrapper {
+    width: 30%;
+    vertical-align: inherit;
+    text-align: center;
+}
+
+.image-wrapper img {
+    vertical-align: middle;
+}
+
+.wrapper-description {
+    width: 70%;
+}
+
+.wrapper-food {
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+.line-menu {
+    height: 1px;
+    background-color: var(--black-color);
+    width: 10em;
+}
+
+.wrapper-food p {
+    font-size: 0.8em;
+    padding-left: 0.3em;
+}
+
+
+/* ---------------------------MAIN-MENU----------*/
+
+
+/* ------------------------------MENU.HTML--------------------------------------------MENU.HTML------*/
+
+
+/* ------------------------------DRINK.HTML--------------------------------------------DRINK.HTML------*/
+
+
+/* ------------------------------HEADER--------*/
+
+.header-banner-drink {
+    height: 200px;
+    background-image: url(../img/alcohol-1961542_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ------------------------------HEADER--------*/
+
+
+/* ------------------------------MAIN--------*/
+
+.image-principal {
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+
+.image-principal img {
+    width: 100%;
+}
+
+.image-principal h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1.5em 0;
+}
+
+.wrapper-wrapper-image {
+    font-size: 16px;
+}
+
+.img-drink {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.img-drink-beer {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.wrapper-image-ron {
+    background-image: url(../img/ron.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.wrapper-image-vodka {
+    background-image: url(../img/vodka-931890_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.wrapper-image-vino {
+    background-image: url(../img/vino.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.wrapper-image-cerveza {
+    background-image: url(../img/beer-2439237_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.imagen-drink {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+
+.imagen-drink-vodka {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+}
+
+.imagen-drink-vino {
+    position: absolute;
+    right: 1em;
+    top: 4.5em;
+}
+
+.imagen-drink p {
+    color: var(--white-color);
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.imagen-drink-vodka p {
+    color: var(--white-color);
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.imagen-drink-vino p {
+    color: var(--white-color);
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* ------------------------------MAIN--------*/
+
+
+/* ------------------------------DRINK.HTML--------------------------------------------DRINK.HTML------*/
+
+
+/* ------------------------------DELIVERY.HTML-----------------------------------------DELIVERY.HTML------*/
+
+
+/* ------------------------------MAIN--------*/
+
+.delivery {
+    font-size: 16px;
+}
+
+.image-delivery {
+    width: 100%;
+    text-align: center;
+    padding: 3em;
+}
+
+.wrapper-description-delivery {
+    width: 100%;
+}
+
+.delivery-description {
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 3em;
+    width: 100%;
+}
+
+.delivery-description h2 {
+    font-size: 1.5em;
+}
+
+.delivery-description p {
+    font-size: 0.8em;
+}
+
+.background-description {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.delivery-body {
+    background-color: var(--yellow-color);
+}
+
+
+/* ------------------------------MAIN--------*/
+
+
+/* ------------------------------DELIVERY.HTML-----------------------------------------DELIVERY.HTML------*/
